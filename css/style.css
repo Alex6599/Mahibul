@@ -1,0 +1,632 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.header {
+  width: 100%;
+  height: 75px;
+  background: red;
+  position: fixed;
+  z-index: 1254;
+}
+.header .header-contner {
+  width: 1320px;
+  height: 100%;
+
+  margin: 0 auto;
+  display: flex;
+}
+.header .header-contner .header-cont1 {
+  width: 50%;
+  height: 100%;
+  /* background: rgb(136, 255, 0); */
+  display: flex;
+  align-items: center;
+}
+.header .header-contner .header-cont1 h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.header .header-contner .header-cont2 {
+  width: 50%;
+  height: 100%;
+  /* background: rgb(63, 142, 199); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .header-contner .header-cont2 ul {
+  list-style-type: none;
+  display: flex;
+}
+.header .header-contner .header-cont2 ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 35px;
+  color: white;
+  cursor: pointer;
+}
+.contact {
+  margin-right: 20px;
+}
+/* .................bg img sec  */
+.bg-img {
+  /* padding-top: 75px; */
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/pexels-photo-5859426.jpeg);
+}
+.bg-cont {
+  height: 100vh;
+  width: 1320px;
+  /* background: red; */
+  margin: 0 auto;
+  position: relative;
+}
+.bg-cont h2 {
+  color: white;
+
+  position: absolute;
+  top: 448px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+}
+.bg-cont h3 {
+  color: white;
+  font-size: 27px;
+  position: absolute;
+  top: 325px;
+  font-family: "Ubuntu", sans-serif;
+}
+.bg-cont h1 {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 370px;
+}
+.bg-cont a {
+  text-decoration: none;
+  color: white;
+  background: red;
+  padding: 15px 25px;
+  position: absolute;
+  top: 510px;
+  border-radius: 5px;
+  border: 3px solid red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  transition: 0.7s;
+}
+.bg-cont a:hover {
+  color: red;
+  background: transparent;
+  border: 3px solid red;
+}
+/* .............................about me sec  */
+.about-me {
+  width: 100%;
+  height: 800px;
+  background: rgb(255, 255, 255);
+}
+.about-continire {
+  width: 1320px;
+  height: 800px;
+  /* background: yellow; */
+  margin: 0 auto;
+}
+.cnt-head {
+  width: 100%;
+  height: 15%;
+  /* background: rgb(200, 43, 171); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cnt-head h2 {
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.cnt-head p {
+  font-size: 25px;
+  font-weight: 500;
+  color: red;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.cnt-bottom {
+  width: 100%;
+  height: 85%;
+  /* background: #000; */
+  display: flex;
+}
+.cnt-left {
+  height: 100%;
+  width: 45%;
+  /* background: gray; */
+}
+.cnt-left img {
+  height: 90%;
+  width: 80%;
+}
+.cnt-right {
+  height: 100%;
+  width: 55%;
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cnt-right h2 {
+  font-size: 34px;
+  font-weight: 600px;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+.cnt-right p {
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: justify;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+.cnt-right a {
+  text-decoration: none;
+  width: 233px;
+  color: white;
+  background: red;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 3px solid red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  transition: 0.6s;
+  margin-left: 15px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.cnt-right a:hover {
+  color: red;
+  background: transparent;
+  border: 3px solid red;
+}
+/* ......................................service sec start  */
+.my-service {
+  width: 100%;
+  height: 695px;
+  background: rgb(0, 0, 0);
+}
+.my-service .service-continer {
+  width: 1320px;
+  height: 690px;
+  /* background: rgb(231, 128, 203); */
+  margin: 0 auto;
+}
+.ser-top {
+  width: 100%;
+  height: 20%;
+  /* background: rgb(217, 212, 212); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ser-top h2 {
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+.ser-top p {
+  font-size: 25px;
+  font-weight: 500;
+  color: red;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.ser-bottom {
+  width: 100%;
+  height: 80%;
+  /* background: rgb(230, 255, 9); */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.ser-bottom .card {
+  height: 250px;
+  width: 350px;
+  background: rgb(65, 62, 62);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.ser-bottom .card:hover {
+  transform: scale(1.1);
+  background: red;
+  cursor: pointer;
+}
+.ser-bottom .card:hover i {
+  color: rgb(255, 255, 255);
+}
+.ser-bottom .card i {
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  transition: 0.7s;
+}
+.ser-bottom .card h2 {
+  font-size: 40px;
+  color: white;
+}
+.ser-bottom .card p {
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+/* skill sec start  */
+.my-skill {
+  width: 100%;
+  height: 695px;
+  background: rgb(255, 255, 255);
+}
+.my-skill .skill-continer {
+  width: 1320px;
+  height: 100%;
+  /* background: rgb(123, 255, 0); */
+  margin: 0 auto;
+}
+.skill-continer-head {
+  width: 100%;
+  height: 20%;
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-continer-head h2 {
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.skill-continer-head p {
+  font-size: 25px;
+  font-weight: 500;
+  color: red;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.skill-continer-Bottom {
+  width: 100%;
+  height: 80%;
+  /* background: rgb(255, 119, 0); */
+  display: flex;
+}
+
+.bottom-left {
+  height: 100%;
+  width: 50%;
+  /* background: rgb(227, 56, 201); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottom-left h2 {
+  font-size: 34px;
+  font-weight: 600px;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+.bottom-left p {
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: justify;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 16px 8px 16px;
+}
+.bottom-left a {
+  text-decoration: none;
+  width: 233px;
+  color: white;
+  background: red;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 3px solid red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  transition: 0.6s;
+  margin-left: 15px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.bottom-left a:hover {
+  color: red;
+  background: transparent;
+  border: 3px solid red;
+}
+.bottom-right {
+  height: 100%;
+  width: 50%;
+  /* background: rgb(228, 194, 223); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-right p {
+  font-size: 25px;
+  margin-top: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  width: 90%;
+  background-color: #ddd;
+}
+
+.html {
+  width: 70%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 45%;
+  background-color: #2196f3;
+}
+.js {
+  width: 1%;
+  background-color: #f44336;
+}
+.php {
+  width: 1%;
+  background-color: #808080;
+}
+/* ............my team sec start  */
+.my-team {
+  width: 100%;
+  height: 700px;
+  background: black;
+}
+.team-continer {
+  width: 1320px;
+  height: 100%;
+  /* background: rgb(144, 59, 59); */
+  margin: 0 auto;
+}
+.team-head {
+  width: 100%;
+  height: 20%;
+  /* background: gray; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-head h2 {
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+.team-head p {
+  font-size: 25px;
+  font-weight: 500;
+  color: red;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.team-bottom {
+  width: 100%;
+  height: 80%;
+  /* background: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-card {
+  height: 420px;
+  width: 390px;
+  background: rgb(255, 1, 1);
+  border-radius: 20px;
+  margin: 0 22px;
+}
+.team-card:hover .box {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.team-card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: 0.4s;
+}
+.team-card .box img {
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  transition: 0.4s;
+}
+.team-card:hover .box img {
+  border: 8px solid white;
+}
+.team-card .box h2 {
+  font-size: 40px;
+  color: white;
+  margin-top: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+.team-card .box p {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+/* ..................contact me section  */
+.contact-me {
+  width: 100%;
+  height: 640px;
+  background: rgb(255, 255, 255);
+}
+.contact-cont {
+  width: 1320px;
+  height: 100%;
+  /* background: blue; */
+  margin: 0 auto;
+}
+.contact-head {
+  width: 100%;
+  height: 20%;
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-head h2 {
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.contact-head p {
+  font-size: 25px;
+  font-weight: 500;
+  color: red;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.contact-bottom {
+  width: 100%;
+  height: 80%;
+  /* background: pink; */
+  display: flex;
+}
+.c-left {
+  height: 100%;
+  width: 50%;
+  /* background: gray; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.c-left h2 {
+  font-size: 34px;
+  font-weight: 600px;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+.c-left p {
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: justify;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 16px 8px 16px;
+  padding-right: 25px;
+}
+.c-left i {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.c-left h3 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.c-left .d {
+  display: flex;
+}
+.c-right {
+  height: 100%;
+  width: 50%;
+  /* background: rgb(63, 149, 140); */
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.c-right h2 {
+  font-size: 34px;
+  font-weight: 600px;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+/* from  */
+Label {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 15px;
+}
+Input {
+  font-size: 35px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+.email {
+  margin-left: 11px;
+}
+textarea {
+  font-size: 57px;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+button {
+  font-size: 30px;
+  padding: 10px 20px;
+  background: red;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 3px solid red;
+  font-family: "Ubuntu", sans-serif;
+  transition: 0.6s;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+button:hover {
+  color: red;
+  background: transparent;
+  border: 3px solid red;
+}
+/* ...................footer sec start  */
+.footer {
+  width: 100%;
+  height: 70px;
+  background: #000;
+}
+.footer-continer {
+  width: 1320px;
+  height: 100%;
+  /* background: rgb(198, 105, 105); */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-continer h2 {
+  color: white;
+  font-size: 40px;
+}
+.footer-continer a {
+  text-decoration: none;
+  color: red;
+}
